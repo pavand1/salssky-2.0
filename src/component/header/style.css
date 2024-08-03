@@ -1,0 +1,19 @@
+.header-container {
+    height: 48px;
+    margin-top: 12px;
+    width: 100%;
+    padding: 0 5%;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: var(--regular-text);
+    color: var(--blue-color);
+}
