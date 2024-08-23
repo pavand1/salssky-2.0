@@ -1,32 +1,30 @@
 @font-face {
-    font-family: "HelveticaNowDisplay-Regular";
-    src: url("../fonts/HelveticaNowDisplay-Regular.ttf");
+    font-family: "Montserrat-Regular";
+    src: url("../fonts/Montserrat-Regular.ttf");
 }
 @font-face {
-    font-family: "HelveticaNowDisplay-Medium";
-    src: url("../fonts/HelveticaNowDisplay-Medium.ttf");
+    font-family: "Montserrat-SemiBold";
+    src: url("../fonts/Montserrat-SemiBold.ttf");
 }
 @font-face {
-    font-family: "HelveticaNowDisplay-Bold";
-    src: url("../fonts/HelveticaNowDisplay-Bold.ttf");
+    font-family: "Montserrat-Bold";
+    src: url("../fonts/Montserrat-Bold.ttf");
 }
 @font-face {
-    font-family: "Helvetica-Now-Regular";
-    src: url("../fonts/Helvetica-Now-Regular.ttf");
+    font-family: "Montserrat-Light";
+    src: url("../fonts/Montserrat-Light.ttf");
 }
 @font-face {
-    font-family: "TrajanPro-Bold";
-    src: url("../fonts/TrajanPro-Bold.otf");
+    font-family: "Montserrat-Black";
+    src: url("../fonts/Montserrat-Black.ttf");
 }
-.footer-nav ul {
-    justify-content: space-between;
-}
+
 p {
     font-size: 15px;
     color: #c7c7c7;
-    font-family: "HelveticaNowDisplay-Regular";
-    letter-spacing: 1px;
-    word-spacing: 1px;
+    font-family: "Montserrat-Regular";
+    letter-spacing: 0.3px;
+    word-spacing: 0.6px;
     font-weight: normal;
 }
 
@@ -42,11 +40,11 @@ footer {
     margin: 0 auto;
 }
 .privacy-login-tab a {
-    font-family: "HelveticaNowDisplay-Regular";
+    font-family: "Montserrat-Regular";
     text-decoration: none;
     color: #fff;
     font-size: 14px;
-    letter-spacing: 1px;
+    letter-spacing: 0.3px;
     transition: 0.3s linear;
 }
 .privacy-login-tab a.privacy-link {
@@ -66,18 +64,18 @@ footer {
 .banner-slider .carousel-caption h3,
 .main-heading {
     color: #d22f26;
-    font-family: "HelveticaNowDisplay-Medium";
+    font-family: "Montserrat-SemiBold";
     font-size: 22px;
-    letter-spacing: 2px;
-    word-spacing: 1px;
+    letter-spacing: 0.3px;
+    word-spacing: 0.6px;
     margin-bottom: 25px;
     font-weight: 600;
 }
 .banner-slider .carousel-caption h4,
 .mid-section h4 {
-    letter-spacing: 1px;
-    word-spacing: 1px;
-    font-family: "HelveticaNowDisplay-Medium";
+    letter-spacing: 0.3px;
+    word-spacing: 0.6px;
+    font-family: "Montserrat-SemiBold";
     font-size: 16px;
     line-height: 1.6em;
     padding-right: 15px;
@@ -87,7 +85,7 @@ footer {
 }
 .banner-slider .carousel-caption .level-content h5,
 .mid-section .level-content h5 {
-    font-family: "HelveticaNowDisplay-Medium";
+    font-family: "Montserrat-SemiBold";
     color: #d22f26;
     font-size: 16px;
 }
@@ -96,17 +94,17 @@ footer {
 .mid-section .level-content ul li {
     font-size: 15px;
     color: #c7c7c7;
-    font-family: "HelveticaNowDisplay-Regular";
-    letter-spacing: 1px;
-    word-spacing: 1px;
+    font-family: "Montserrat-Regular";
+    letter-spacing: 0.3px;
+    word-spacing: 0.6px;
     font-weight: normal;
 }
 .banner-slider .carousel-caption .level-content h6 {
-    font-family: "HelveticaNowDisplay-Regular";
+    font-family: "Montserrat-Regular";
     color: #fff;
     font-size: 16px;
     font-weight: normal;
-    letter-spacing: 1px;
+    letter-spacing: 0.3px;
     word-spacing: 0.6px;
 }
 .banner-slider .carousel-indicators [data-bs-target] {
@@ -130,9 +128,9 @@ footer {
     color: #fff;
     width: 100%;
     padding: 15px 8px;
-    letter-spacing: 1px;
-    word-spacing: 1px;
-    font-family: "HelveticaNowDisplay-Medium";
+    letter-spacing: 0.3px;
+    word-spacing: 0.6px;
+    font-family: "Montserrat-SemiBold";
     font-size: 16px;
 }
 section.top-bar.fixed-top {
@@ -142,6 +140,9 @@ section.top-bar.fixed-top {
 section.top-bar.fixed-top .row {
     margin-left: 0;
     margin-right: 6px;
+}
+.footer-nav ul {
+    justify-content: space-between;
 }
 .footer-nav {
     padding: 0 18px;
@@ -174,7 +175,7 @@ section.top-bar.fixed-top .row {
     border: none;
     border-radius: 0;
     padding: 0;
-    text-align: center;
+    text-align: center; /*width: 20%;*/
 }
 .footer-nav ul li.active {
     background-color: transparent;
@@ -184,7 +185,7 @@ section.top-bar.fixed-top .row {
     text-decoration: none;
     font-size: 14px;
     color: #8c8c8c;
-    font-family: "HelveticaNowDisplay-Medium";
+    font-family: "Montserrat-SemiBold";
     padding: 5px;
     display: flex;
     flex-direction: column;
@@ -196,16 +197,16 @@ section.top-bar.fixed-top .row {
 .footer-nav ul li span {
     display: block;
     margin-top: 5px;
-    font-family: "HelveticaNowDisplay-Regular";
+    font-family: "Montserrat-Regular";
     color: #8c8c8c;
 }
 .footer-nav ul li.active a,
 .footer-nav ul li.active a span {
-    font-family: "HelveticaNowDisplay-Regular";
+    font-family: "Montserrat-Regular";
     color: #fff;
 }
 .banner-slider .carousel-caption .level-content p strong {
-    font-family: "HelveticaNowDisplay-Medium";
+    font-family: "Montserrat-SemiBold";
     color: #fff;
     font-weight: normal;
 }
@@ -240,7 +241,7 @@ section.top-bar.fixed-top .row {
 }
 .mid-section .level-content ul li strong {
     font-weight: 500;
-    font-family: "HelveticaNowDisplay-Medium";
+    font-family: "Montserrat-SemiBold";
     display: block;
     text-indent: 3px;
     color: #fff;
@@ -275,44 +276,44 @@ section.top-bar.fixed-top .row {
     position: relative;
 }
 .year-box h4 {
-    font-family: "HelveticaNowDisplay-Regular";
+    font-family: "Montserrat-SemiBold";
     font-size: 12px;
     color: #32cd32;
-    letter-spacing: 1.4px;
-    word-spacing: 1.8px;
+    letter-spacing: 0.3px;
+    word-spacing: 0.6px;
     margin-bottom: 10px;
     padding: 0;
 }
 .year-box h3,
 .monthly-box h3,
 .weekly-box h3 {
-    font-family: "HelveticaNowDisplay-Regular";
+    font-family: "Montserrat-SemiBold";
     font-size: 26px;
     color: #fff;
-    letter-spacing: 3.5px;
-    word-spacing: 4px;
+    letter-spacing: 0.3px;
+    word-spacing: 0.6px;
 }
 .level-content .year-box h5,
 .level-content .monthly-box h5,
 .level-content .weekly-box h5 {
     background-color: rgb(255 255 255 / 9%);
-    font-family: "HelveticaNowDisplay-Regular";
+    font-family: "Montserrat-SemiBold";
     font-size: 14px;
     color: #fff;
     letter-spacing: 1.1px;
-    word-spacing: 1px;
+    word-spacing: 0.6px;
     padding: 8px 11px;
     border-radius: 25px;
     margin-bottom: 25px;
 }
-.level-content .year-box h6,
-.level-content .monthly-box h6,
-.level-content .weekly-box h6 {
-    font-family: "HelveticaNowDisplay-Regular";
+.year-box h6,
+.monthly-box h6,
+.weekly-box h6 {
+    font-family: "Montserrat-Regular";
     font-size: 14px;
     color: #fff;
-    letter-spacing: 1px;
-    word-spacing: 1px;
+    letter-spacing: 0.3px;
+    word-spacing: 0.6px;
     height: 34px;
 }
 .combo-offer-img {
@@ -324,10 +325,10 @@ section.top-bar.fixed-top .row {
 .mid-section .offer-text p {
     color: #0f0f0f;
     font-size: 14px;
-    letter-spacing: 1px;
+    letter-spacing: 0.3px;
     font-size: 14px;
     margin: 0;
-    font-family: "HelveticaNowDisplay-Medium";
+    font-family: "Montserrat-SemiBold";
 }
 .combo-text {
     position: absolute;
@@ -349,7 +350,7 @@ section.top-bar.fixed-top .row {
     position: relative;
 }
 .monthly-box h4 {
-    font-family: "HelveticaNowDisplay-Regular";
+    font-family: "Montserrat-Regular";
     font-size: 12px;
     color: #007bff;
     letter-spacing: 1.4px;
@@ -365,7 +366,7 @@ section.top-bar.fixed-top .row {
     position: relative;
 }
 .weekly-box h4 {
-    font-family: "HelveticaNowDisplay-Regular";
+    font-family: "Montserrat-Regular";
     font-size: 12px;
     color: #ffd700;
     letter-spacing: 1.4px;
@@ -384,9 +385,9 @@ input[type="password"] {
     background-color: #292929;
     color: #708090;
     color: #fff;
-    font-family: "HelveticaNowDisplay-Regular";
+    font-family: "Montserrat-Regular";
     font-size: 14px;
-    letter-spacing: 1px;
+    letter-spacing: 0.3px;
     word-spacing: 2px;
 }
 section.newsletter-sec .input-group-text {
@@ -397,11 +398,11 @@ section.newsletter-sec .input-group-text {
     border: none;
     border-radius: 4px !important;
     background-color: #d22f26;
-    font-family: "HelveticaNowDisplay-Medium";
+    font-family: "Montserrat-SemiBold";
     color: #fff;
     font-size: 14px;
-    letter-spacing: 0.6px;
-    word-spacing: 1px;
+    letter-spacing: 0.3px;
+    word-spacing: 0.6px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -420,16 +421,16 @@ section.newsletter-sec .input-group-text {
     border: none;
 }
 .free-trial-modal h3 {
-    font-family: "HelveticaNowDisplay-Regular";
+    font-family: "Montserrat-Regular";
     font-size: 28px;
     color: #c7c7c7;
     text-align: center;
-    letter-spacing: 1px;
-    word-spacing: 1px;
+    letter-spacing: 0.3px;
+    word-spacing: 0.6px;
     margin-bottom: 30px;
 }
 .free-trial-modal .popup-content h4 {
-    font-family: "HelveticaNowDisplay-Regular";
+    font-family: "Montserrat-Regular";
     font-size: 18px;
     letter-spacing: 0.3px;
     word-spacing: 0.6px;
@@ -442,7 +443,7 @@ section.newsletter-sec .input-group-text {
     font-size: 15px;
 }
 .free-trial-modal .unlimited-para p {
-    font-family: "HelveticaNowDisplay-Regular";
+    font-family: "Montserrat-Regular";
     font-size: 16px;
     color: #fff;
     margin: 40px 0px 15px 0px;
@@ -450,7 +451,7 @@ section.newsletter-sec .input-group-text {
     line-height: 1.5em;
 }
 button.btn-link {
-    font-family: "HelveticaNowDisplay-Regular";
+    font-family: "Montserrat-Regular";
     font-size: 14px;
     color: #007bff;
     text-align: center;
@@ -472,11 +473,11 @@ button.btn-link {
     margin-bottom: 15px;
 }
 .free-trial-modal .cancel-plan-sec h6 {
-    letter-spacing: 1px;
+    letter-spacing: 0.3px;
     word-spacing: 2px;
     color: #393939;
     font-size: 16px;
-    font-family: "HelveticaNowDisplay-Medium";
+    font-family: "Montserrat-SemiBold";
     margin-bottom: 10px;
 }
 .free-trial-modal .cancel-plan-sec p {
@@ -486,14 +487,13 @@ button.btn-link {
 }
 .start-free-trial-btn {
     background-color: #007bff;
-    padding: 15px;
     border-radius: 8px;
     text-align: center;
-    font-family: "HelveticaNowDisplay-Regular";
+    font-family: "Montserrat-Regular";
     font-size: 14px;
 }
 .start-free-trial-btn strong {
-    font-family: "HelveticaNowDisplay-Bold";
+    font-family: "Montserrat-Bold";
     color: #fff;
     font-size: 14px;
     display: block;
@@ -666,8 +666,8 @@ input[type="password"] {
 .profile-name-number a {
     text-decoration: none;
     color: #f4f4f4;
-    font-family: "HelveticaNowDisplay-Regular";
-    letter-spacing: 1px;
+    font-family: "Montserrat-Regular";
+    letter-spacing: 0.3px;
 }
 .newsletter-sec.profile-start-convo {
     margin-bottom: 35px;
@@ -690,24 +690,24 @@ input[type="password"] {
     word-spacing: 0.6px;
     color: #f4f4f4;
     font-size: 15px;
-    font-family: "HelveticaNowDisplay-Regular";
+    font-family: "Montserrat-Regular";
 }
 .question-answer-content h4 {
     margin-bottom: 15px;
-    letter-spacing: 0.8px;
+    letter-spacing: 0.3px;
     word-spacing: 0.6px;
     color: #f4f4f4;
     font-size: 15px;
-    font-family: "HelveticaNowDisplay-Medium";
+    font-family: "Montserrat-SemiBold";
     font-weight: normal;
 }
 .question-answer-content p,
 .profile-reply-content p {
-    letter-spacing: 0.7px;
-    word-spacing: 0.7px;
+    letter-spacing: 0.3px;
+    word-spacing: 0.6px;
     color: #c7c7c7;
     font-size: 15px;
-    font-family: "HelveticaNowDisplay-Regular";
+    font-family: "Montserrat-Regular";
 }
 .profile-posted-content span.posted-by,
 .profile-posted-content span.posted-by a {
@@ -720,10 +720,10 @@ span.comment-count,
 .comment-time p,
 .profile-reply-content .comment-time p a {
     color: #8c8c8c;
-    font-family: "HelveticaNowDisplay-Regular";
+    font-family: "Montserrat-Regular";
     font-size: 12px;
-    letter-spacing: 1px;
-    word-spacing: 1px;
+    letter-spacing: 0.3px;
+    word-spacing: 0.6px;
     margin-bottom: 0;
     margin-left: 4px;
     text-decoration: none;
@@ -742,11 +742,11 @@ span.comment-count,
     background-color: rgb(244 244 244 / 90%);
     border-radius: 4px !important;
     margin-left: 18px;
-    font-family: "HelveticaNowDisplay-Regular";
+    font-family: "Montserrat-Regular";
     color: #000;
     font-size: 14px;
     letter-spacing: 0.8px;
-    word-spacing: 1px;
+    word-spacing: 0.6px;
 }
 .comment-reply .dropup button {
     background-color: transparent;
@@ -756,7 +756,7 @@ span.comment-count,
     vertical-align: baseline;
     font-size: 30px;
     line-height: 0;
-    letter-spacing: 1px;
+    letter-spacing: 0.3px;
 }
 .comment-reply .dropup ul.dropdown-menu {
     min-width: inherit;
@@ -766,7 +766,7 @@ span.comment-count,
 .comment-reply .dropup ul.dropdown-menu li a {
     text-decoration: none;
     letter-spacing: 0.6px;
-    font-family: "HelveticaNowDisplay-Regular";
+    font-family: "Montserrat-Regular";
     color: #c7c7c7;
     font-size: 13px;
 }
@@ -780,14 +780,13 @@ span.comment-count,
     margin-right: 4px;
     margin-bottom: 2px;
 }
-.comment-reply span {
+.comment-reply a {
     color: #f4f4f4;
-    font-family: "HelveticaNowDisplay-Regular";
+    font-family: "Montserrat-Regular";
     font-size: 12px;
-    letter-spacing: 1px;
+    letter-spacing: 0.3px;
     font-size: 14px;
     text-decoration: none;
-    cursor: pointer;
 }
 .community-chat-select-dropdown {
     padding: 15px;
@@ -796,10 +795,10 @@ span.comment-count,
 }
 .community-chat-select-dropdown button {
     color: #f5f5f5;
-    font-family: "HelveticaNowDisplay-Regular";
+    font-family: "Montserrat-Regular";
     font-size: 14px;
-    letter-spacing: 1px;
-    word-spacing: 1px;
+    letter-spacing: 0.3px;
+    word-spacing: 0.6px;
     width: 100%;
     text-align: left;
     position: relative;
@@ -821,9 +820,9 @@ span.comment-count,
 }
 .community-chat-select-dropdown ul.dropdown-menu li a {
     color: #f4f4f4;
-    font-family: "HelveticaNowDisplay-Regular";
-    letter-spacing: 1px;
-    word-spacing: 1px;
+    font-family: "Montserrat-Regular";
+    letter-spacing: 0.3px;
+    word-spacing: 0.6px;
     padding: 6px 30px;
     font-size: 14px;
 }
@@ -832,18 +831,18 @@ span.comment-count,
 .community-chat-select-dropdown ul.dropdown-menu li a:active {
     background-color: #d9d9d9;
     color: #000;
-    font-family: "HelveticaNowDisplay-Medium";
+    font-family: "Montserrat-SemiBold";
 }
 .start-convo-btn button {
     padding: 4px 18px;
     border: none;
     border-radius: 4px !important;
     background-color: #d22f26;
-    font-family: "HelveticaNowDisplay-Medium";
+    font-family: "Montserrat-SemiBold";
     color: #fff;
     font-size: 14px;
     letter-spacing: 0.6px;
-    word-spacing: 1px;
+    word-spacing: 0.6px;
     padding: 11px 25px;
 }
 .community-chat-select-dropdown .btn.show {
@@ -865,26 +864,25 @@ span.comment-count,
 .terms-policy-page p {
     font-size: 16px;
     color: #c7c7c7;
-    font-family: "HelveticaNowDisplay-Regular";
-    letter-spacing: 0.7px;
-    word-spacing: 1px;
+    font-family: "Montserrat-Regular";
+    letter-spacing: 0.3px;
+    word-spacing: 0.6px;
     font-weight: normal;
 }
 .terms-content h5 {
     font-size: 16px;
     color: #f4f4f4;
-    font-family: "HelveticaNowDisplay-Bold";
-    letter-spacing: 0.7px;
-    word-spacing: 1px;
+    font-family: "Montserrat-Bold";
+    letter-spacing: 0.3px;
+    word-spacing: 0.6px;
     font-weight: normal;
 }
 .faq-content {
     margin-top: 40px;
-    /* border: 2px dashed #9747ff; */
+    border: 2px dashed #9747ff;
     border-radius: 5px;
-    /* padding: 18px; */
+    padding: 18px;
     margin-bottom: 120px;
-    margin-right: 20px;
 }
 .faq-content .accordion-flush .accordion-item button.accordion-button {
     background-color: #292929;
@@ -892,14 +890,14 @@ span.comment-count,
     border: none;
     transition: 0s;
     box-shadow: none;
-    font-family: "HelveticaNowDisplay-Medium";
+    font-family: "Montserrat-SemiBold";
     color: #f4f4f4;
     font-size: 16px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
     transition: 0s;
-    letter-spacing: 1px;
-    word-spacing: 1px;
+    letter-spacing: 0.3px;
+    word-spacing: 0.6px;
 }
 .faq-content .accordion-flush .accordion-item {
     background-color: transparent;
@@ -934,9 +932,9 @@ span.comment-count,
 }
 .faq-content .accordion-body p {
     color: #f5f5f5;
-    font-family: "HelveticaNowDisplay-Regular";
-    letter-spacing: 1px;
-    word-spacing: 1px;
+    font-family: "Montserrat-Regular";
+    letter-spacing: 0.3px;
+    word-spacing: 0.6px;
     line-height: 1.8em;
     font-size: 15px;
 }
@@ -948,18 +946,18 @@ span.comment-count,
     transform: rotate(-180deg);
 }
 .sign-in-tip h4 {
-    letter-spacing: 1px;
-    word-spacing: 1px;
+    letter-spacing: 0.3px;
+    word-spacing: 0.6px;
     color: #a1a1a1;
     font-weight: normal;
-    font-family: "HelveticaNowDisplay-Regular";
+    font-family: "Montserrat-Regular";
     font-size: 15px;
 }
 .login-content label {
     color: #828282;
     font-size: 14px;
-    font-family: "HelveticaNowDisplay-Regular";
-    letter-spacing: 1px;
+    font-family: "Montserrat-Regular";
+    letter-spacing: 0.3px;
     margin-bottom: 5px;
 }
 .login-content form input[type="email"],
@@ -979,11 +977,11 @@ span.comment-count,
     border: none;
     border-radius: 2px;
     background-color: #d22f26;
-    font-family: "HelveticaNowDisplay-Medium";
+    font-family: "Montserrat-SemiBold";
     color: #fff;
     font-size: 20px;
     letter-spacing: 0.6px;
-    word-spacing: 1px;
+    word-spacing: 0.6px;
     padding: 11px 25px;
     font-weight: normal;
     margin: 10px 0px 20px;
@@ -994,20 +992,20 @@ span.comment-count,
     color: #007bff;
     text-decoration: none;
     font-size: 14px;
-    font-family: "HelveticaNowDisplay-Regular";
-    letter-spacing: 1px;
-    word-spacing: 1px;
+    font-family: "Montserrat-Regular";
+    letter-spacing: 0.3px;
+    word-spacing: 0.6px;
 }
 .new-sign-in h6 {
-    font-family: "HelveticaNowDisplay-Regular";
-    letter-spacing: 0.8px;
-    word-spacing: 1px;
+    font-family: "Montserrat-Regular";
+    letter-spacing: 0.3px;
+    word-spacing: 0.6px;
     color: #616161;
     font-size: 14px;
 }
 .new-sign-in h6 a {
     color: #d22f26;
-    font-family: "HelveticaNowDisplay-Medium";
+    font-family: "Montserrat-SemiBold";
     font-size: 16px;
     text-decoration: none;
     border-bottom: 1px solid;
@@ -1023,8 +1021,8 @@ span.comment-count,
 }
 .profile-name h5 a,
 .profile-name h5 {
-    font-family: "HelveticaNowDisplay-Medium";
-    letter-spacing: 0.9px;
+    font-family: "Montserrat-SemiBold";
+    letter-spacing: 0.3px;
     font-size: 16px;
     color: #f4f4f4;
     font-weight: normal;
@@ -1044,7 +1042,7 @@ span.comment-count,
 }
 .edit-save-content ul li a {
     font-size: 13px;
-    font-family: "HelveticaNowDisplay-Regular";
+    font-family: "Montserrat-Regular";
     text-decoration: none;
     color: #f4f4f4;
     letter-spacing: 0.8px;
@@ -1116,8 +1114,8 @@ span.comment-count,
     font-size: 26px;
     font-family: "TrajanPro-Bold";
     line-height: 1.5em;
-    letter-spacing: 1px;
-    word-spacing: 1px;
+    letter-spacing: 0.3px;
+    word-spacing: 0.6px;
 }
 .unlock-btn.login-content {
     margin: 40px 0px 50px;
@@ -1125,8 +1123,8 @@ span.comment-count,
     padding-bottom: 40px;
 }
 .unlock-register-form label {
-    font-family: "HelveticaNowDisplay-Regular";
-    letter-spacing: 1px;
+    font-family: "Montserrat-Regular";
+    letter-spacing: 0.3px;
     font-size: 16px;
     color: #f4f4f4;
     width: 130px;
@@ -1136,27 +1134,26 @@ span.comment-count,
     border-bottom: 1px solid #708090;
     width: 65%;
 }
-.info-field input[type="text"],
-input[type="password"] {
+.info-field input[type="text"] {
     background-color: transparent;
     color: #8c8c8c;
     border: none;
     width: 100%;
-    font-family: "HelveticaNowDisplay-Regular";
-    letter-spacing: 1px;
+    font-family: "Montserrat-Regular";
+    letter-spacing: 0.3px;
     font-size: 14px;
     padding: 0px 15px 5px;
 }
 .register-form-icon a {
     color: #c7c7c7;
-    font-family: "HelveticaNowDisplay-Regular";
-    letter-spacing: 1px;
+    font-family: "Montserrat-Regular";
+    letter-spacing: 0.3px;
     font-size: 13px;
     text-decoration: none;
 }
 .menu-page-section h5 {
-    font-family: "HelveticaNowDisplay-Regular";
-    letter-spacing: 1px;
+    font-family: "Montserrat-Regular";
+    letter-spacing: 0.3px;
     font-size: 16px;
     color: #fff;
     padding-bottom: 15px;
@@ -1168,8 +1165,8 @@ input[type="password"] {
     border-radius: 0 !important;
     border: none;
     background-color: transparent;
-    font-family: "HelveticaNowDisplay-Regular";
-    letter-spacing: 1px;
+    font-family: "Montserrat-Regular";
+    letter-spacing: 0.3px;
     font-size: 15px;
     color: #fff;
     padding: 0;
@@ -1187,8 +1184,8 @@ input[type="password"] {
 }
 .menu-page-section ul.privacy-terms-help li.list-group-item a {
     color: #8c8c8c;
-    font-family: "HelveticaNowDisplay-Regular";
-    letter-spacing: 1px;
+    font-family: "Montserrat-Regular";
+    letter-spacing: 0.3px;
     font-size: 14px;
     text-decoration: none;
     font-size: 15px;
@@ -1204,11 +1201,11 @@ input[type="password"] {
     border: 2px dashed #32cd32;
 }
 .coockie-content label {
-    font-family: "HelveticaNowDisplay-Regular";
-    letter-spacing: 1px;
+    font-family: "Montserrat-Regular";
+    letter-spacing: 0.3px;
     font-size: 12px;
     color: #f4f4f4;
-    word-spacing: 1px;
+    word-spacing: 0.6px;
     margin: 8px 0px;
     line-height: 1.8em;
 }
@@ -1221,9 +1218,9 @@ input[type="password"] {
     padding: 11px 25px;
     border: none;
     color: #fff;
-    font-family: "HelveticaNowDisplay-Regular";
-    letter-spacing: 1px;
-    word-spacing: 1px;
+    font-family: "Montserrat-Regular";
+    letter-spacing: 0.3px;
+    word-spacing: 0.6px;
     font-size: 14px;
     border-radius: 4px;
 }
@@ -1239,7 +1236,7 @@ input[type="password"] {
 .start-free-trial-btn.upgarde-btn strong {
     font-size: 18px;
     font-weight: normal !important;
-    font-family: "HelveticaNowDisplay-Medium";
+    font-family: "Montserrat-SemiBold";
 }
 .free-trial-modal.current-user-modal h3 {
     font-size: 20px;
@@ -1323,7 +1320,7 @@ h4.yellow-text-heading {
 }
 .tip-content p,
 .error-content p {
-    font-family: "HelveticaNowDisplay-Regular";
+    font-family: "Montserrat-Regular";
     font-size: 12px;
     color: #fff;
     letter-spacing: 0.6px;
@@ -1452,7 +1449,7 @@ section.mid-section.bill-upgrade {
     margin-bottom: 150px;
 }
 .billing-details .bill-title h4 {
-    font-family: "HelveticaNowDisplay-Regular";
+    font-family: "Montserrat-Regular";
     padding-bottom: 15px;
     border-bottom: 1px solid #708090;
     letter-spacing: 1px;
@@ -1464,7 +1461,7 @@ section.mid-section.bill-upgrade {
     margin-bottom: 30px;
 }
 .upgrade-title h5 {
-    font-family: "HelveticaNowDisplay-Regular";
+    font-family: "Montserrat-Regular";
     font-size: 15px;
     letter-spacing: 1px;
     word-spacing: 1px;
@@ -1476,7 +1473,7 @@ section.mid-section.bill-upgrade {
     --bs-table-bg: transparent;
 }
 .payment-table table th {
-    font-family: "HelveticaNowDisplay-Regular";
+    font-family: "Montserrat-Regular";
     font-size: 16px;
     letter-spacing: 0.6px;
     word-spacing: 0.6px;
@@ -1487,7 +1484,7 @@ section.mid-section.bill-upgrade {
     padding-bottom: 30px;
 }
 .payment-table table td {
-    font-family: "HelveticaNowDisplay-Regular";
+    font-family: "Montserrat-Regular";
     font-size: 13px;
     letter-spacing: 0.6px;
     word-spacing: 0.6px;
@@ -1517,7 +1514,7 @@ section.mid-section.bill-upgrade {
     z-index: 9999;
 }
 .payment-table .dropdown-menu table.dropdown-table td a {
-    font-family: "HelveticaNowDisplay-Regular";
+    font-family: "Montserrat-Regular";
     font-size: 11px;
     letter-spacing: 0.6px;
     word-spacing: 0.6px;
@@ -1603,7 +1600,7 @@ body.bg-white .profile-name h5 a,
 body.bg-white .profile-name h5,
 body.bg-white .edit-save-content ul li a,
 body.bg-white .unlock-register-form label {
-    color: #292929;
+    color: #6b6b6b;
 }
 body.bg-white .footer-nav ul li.active a,
 body.bg-white .footer-nav ul li.active a span,
@@ -1990,7 +1987,8 @@ body.bg-white :-moz-placeholder {
         padding-right: 0;
     }
     .banner-slider .carousel-caption h3 {
-        letter-spacing: 1.5px;
+        letter-spacing: 0.3px;
+        word-spacing: 0.6px;
     }
     /* .banner-slider .carousel-item {
         min-height: 710px;
@@ -2038,6 +2036,8 @@ body.bg-white :-moz-placeholder {
     }
     .sort-dropdown .dropdown ul.dropdown-menu {
         min-width: 80px;
+        border: none;
+        box-shadow: none;
     }
     .sort-dropdown .dropdown-menu li a {
         padding: 0px 0px 5px;
@@ -2047,8 +2047,8 @@ body.bg-white :-moz-placeholder {
     }
     section.newsletter-sec .input-group input[type="text"] {
         font-size: 13px;
-        letter-spacing: 0.6px;
-        word-spacing: 0.6px;
+        letter-spacing: 0.2px;
+        word-spacing: 0.3px;
         padding: 15px 8px;
     }
     .profile-posted-content h5 {
@@ -2099,17 +2099,18 @@ body.bg-white :-moz-placeholder {
 @media (max-width: 420px) {
     .banner-slider .carousel-caption h3 {
         font-size: 21px;
-        letter-spacing: 1.5px;
+        letter-spacing: 0.3px;
     }
-    /* .banner-slider .carousel-item {
+    .banner-slider .carousel-item {
         min-height: 730px;
-    } */
+    }
     .offer-boxes .col-6 {
         padding: 0 5px;
     }
     .monthly-box.blue-box,
     .weekly-box.yellow-box,
-    .monthly-box.red-box {
+    .monthly-box.red-box,
+    .year-box {
         padding: 12px;
     }
     .level-content .monthly-box h6,
